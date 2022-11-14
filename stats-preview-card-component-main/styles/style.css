@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+
+body{
+    background-color: rgb(10, 12, 27);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.tarjeta{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(28, 25, 56);
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 5px;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px 50px;
+}
+
+.imagen-muestra{
+    background-color: rgb(194, 94, 219);
+}
+
+.imagen-muestra img{
+    opacity: .5;
+}
+
+.texto h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.texto p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: grey
+}
+
+.listado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.encabezado{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.especificacion{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color:grey;
+    font-size: .7em;
+}
+
+.remarcado{
+    color:rgb(194, 94, 219);
+}
+
+
+
